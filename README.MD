@@ -1,7 +1,7 @@
 # OpenCore EFI for AMD Ryzen Hackintosh and Intel Wifi (macOS 10.13 - 10.16)
 
 ## Specification
-Check out my PCPartPicker config [here](https://pcpartpicker.com/list/8gkz27)
+Check out my <b>PCPartPicker</b> config [here](https://pcpartpicker.com/list/8gkz27)
 
 | **Component** | **Model** |
 | ------------- | --------- |
@@ -54,6 +54,7 @@ Wifi is achieved by using a combo of itlwmx (not itlwm) and the Heliport app lin
 
   1. Make sure to download [Heliport](https://github.com/OpenIntelWireless/HeliPort) and put it into your /Applications
   2. Set it up as a startup app by going to User & Groups, clicking your user, clicking the Login Items tab, then the plus and adding it.
+
 
 **You CAN NOT use SMBIOS from this repository, it MUST be unique for every macOS installation**
 

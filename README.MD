@@ -12,8 +12,8 @@ Check out my <b>PCPartPicker</b> config [here](https://pcpartpicker.com/list/8gk
 | WiFi & Bluetooth | Intel AX1200 (the one on the motherboard) |
 | OS Disk (NVMe) | [Samsung 970 EVO Plus SSD 500GB](https://www.amazon.com/gp/product/B07M7Q21N7/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1) |
 
-**macOS version**: 11.0 Beta 5 (20A5354i)  
-**OpenCore version**: 0.6.0  
+**macOS version**: 11.0 Beta 5 (20A5354i)
+**OpenCore version**: 0.6.0
 
 ## Drivers & Kexts
  - [[Bootloader] OpenCore](https://github.com/acidanthera/OpenCorePkg)
@@ -35,7 +35,10 @@ Check out my <b>PCPartPicker</b> config [here](https://pcpartpicker.com/list/8gk
 
 ## Compatible macOS versions
  - Big Sur (10.16/11.0)
- 
+
+## If you have problems!
+ - Check the [OpenCore config.plist Sanity Checker](https://opencore.slowgeek.com/)
+
 ## Issues
  - Partially-working virtualization (only VirtualBox & Parallels Dekstop 13.1.0 or below)
  - Not working 3.5mm Jack microphone (only USB/Bluetooth microphones)
@@ -46,7 +49,7 @@ Check out my <b>PCPartPicker</b> config [here](https://pcpartpicker.com/list/8gk
   3. Download [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) to generate unique SMBIOS information. Run it and select **Generate SMBIOS**, as the model select **iMacPro1,1**.
   4. Open config.plist with [**ProperTree**](https://github.com/corpnewt/ProperTree) and go to PlatformInfo > Generic. Set MLB (Board Serial), SystemSerialNumber (Serial) and SystemUUID (SmUUID) to generated values. Change ROM to your network card's MAC address without the `:` character. [**How to get MAC Address?**](https://www.wikihow.com/Find-the-MAC-Address-of-Your-Computer)
   5. Boot it!
-  
+
 ## Wifi
 Wifi is achieved by using a combo of itlwmx (not itlwm) and the Heliport app linked below.
 
@@ -57,7 +60,7 @@ Wifi is achieved by using a combo of itlwmx (not itlwm) and the Heliport app lin
 **You CAN NOT use SMBIOS from this repository, it MUST be unique for every macOS installation**
 
 ## Other guides
-**If you have any problems with installation or booting your macOS, kernel panics or another system related issue check OC configuration guide**  
+**If you have any problems with installation or booting your macOS, kernel panics or another system related issue check OC configuration guide**
 **If something else isn't working properly (for example USB ports, iServices, DRM/Netflix) check Post-Install guide**
  - Creating USB installer: [**\*click\***](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
  - OpenCore configuration: [**\*click\***](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html)
@@ -67,6 +70,6 @@ Wifi is achieved by using a combo of itlwmx (not itlwm) and the Heliport app lin
  - USB mapping: [**\*click\***](https://dortania.github.io/OpenCore-Post-Install/usb/)
 
 
-If you have any other questions or issues, feel free to ask on [**AMD-OSX Discord**](https://discord.gg/EfCYAJW) or [**Forum**](https://forum.amd-osx.com)  
+If you have any other questions or issues, feel free to ask on [**AMD-OSX Discord**](https://discord.gg/EfCYAJW) or [**Forum**](https://forum.amd-osx.com)
 
 ![Screenshot](/screenshot.png?raw=true)

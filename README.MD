@@ -1,4 +1,4 @@
-# OpenCore EFI for AMD Ryzen Hackintosh and Intel Wifi (macOS 10.13 - 10.16)
+# OpenCore EFI for AMD Ryzen Hackintosh and Intel Wifi on macOS 11
 
 ## Specification
 Check out my <b>PCPartPicker</b> config [here](https://pcpartpicker.com/list/8gkz27)
@@ -34,9 +34,6 @@ Check out my <b>PCPartPicker</b> config [here](https://pcpartpicker.com/list/8gk
  - [[Kext] SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor)
 
 ## Compatible macOS versions
- - High Sierra (10.13.x)
- - Mojave (10.14.x)
- - Catalina (10.15.x)
  - Big Sur (10.16/11.0)
  
 ## Issues

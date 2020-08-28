@@ -1,4 +1,4 @@
-# OpenCore EFI for AMD Ryzen Hackintosh (macOS 10.13 - 10.16)
+# OpenCore EFI for AMD Ryzen Hackintosh and Intel Wifi (macOS 10.13 - 10.16)
 
 ## Specification
 Check out my PCPartPicker config [here](https://pcpartpicker.com/list/8gkz27)

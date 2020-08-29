@@ -1,4 +1,4 @@
-# OpenCore EFI for AMD Ryzen Hackintosh and Intel Wifi (macOS 10.13 - 10.16)
+# OpenCore EFI for AMD Ryzen Hackintosh and Intel Wifi on macOS 11
 
 ## Specification
 Check out my <b>PCPartPicker</b> config [here](https://pcpartpicker.com/list/8gkz27)
@@ -9,11 +9,11 @@ Check out my <b>PCPartPicker</b> config [here](https://pcpartpicker.com/list/8gk
 | Motherboard | [GIGABYTE X570 I AORUS Pro WIFI](https://www.amazon.com/gp/product/B07T9PC9ZZ/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1) |
 | RAM | 32GB [(2 x 16GB) Corsair Vengeance @ 3000MHz](https://www.newegg.com/g-skill-32gb-288-pin-ddr4-sdram/p/N82E16820232218?Item=N82E16820232218) |
 | GPU | [Gigabyte RX Vega 56]() |
-| WiFi & Bluetooth | Intel (AX1200) |
+| WiFi & Bluetooth | Intel AX1200 (the one on the motherboard) |
 | OS Disk (NVMe) | [Samsung 970 EVO Plus SSD 500GB](https://www.amazon.com/gp/product/B07M7Q21N7/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1) |
 
-**macOS version**: 11.0 Beta 5 (20A5354i)  
-**OpenCore version**: 0.6.0  
+**macOS version**: 11.0 Beta 5 (20A5354i)
+**OpenCore version**: 0.6.0
 
 ## Drivers & Kexts
  - [[Bootloader] OpenCore](https://github.com/acidanthera/OpenCorePkg)
@@ -31,12 +31,13 @@ Check out my <b>PCPartPicker</b> config [here](https://pcpartpicker.com/list/8gk
  - [[Kext] AppleMCEReporterDisabler](https://github.com/AMD-OSX/AMD_Vanilla/blob/experimental-opencore/Extra/AppleMCEReporterDisabler.kext.zip)
  - [[Kext] itlwmx](https://github.com/OpenIntelWireless/itlwm)
  - [[Kext] IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
+ - [[Kext] SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor)
 
 ## Compatible macOS versions
- - High Sierra (10.13.x)
- - Mojave (10.14.x)
- - Catalina (10.15.x)
  - Big Sur (10.16/11.0)
+
+## If you have problems!
+ - Check the [OpenCore config.plist Sanity Checker](https://opencore.slowgeek.com/)
 
 ## Issues
  - Partially-working virtualization (only VirtualBox & Parallels Dekstop 13.1.0 or below)
@@ -48,7 +49,7 @@ Check out my <b>PCPartPicker</b> config [here](https://pcpartpicker.com/list/8gk
   3. Download [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) to generate unique SMBIOS information. Run it and select **Generate SMBIOS**, as the model select **iMacPro1,1**.
   4. Open config.plist with [**ProperTree**](https://github.com/corpnewt/ProperTree) and go to PlatformInfo > Generic. Set MLB (Board Serial), SystemSerialNumber (Serial) and SystemUUID (SmUUID) to generated values. Change ROM to your network card's MAC address without the `:` character. [**How to get MAC Address?**](https://www.wikihow.com/Find-the-MAC-Address-of-Your-Computer)
   5. Boot it!
-  
+
 ## Wifi
 Wifi is achieved by using a combo of itlwmx (not itlwm) and the Heliport app linked below.
 
@@ -59,7 +60,7 @@ Wifi is achieved by using a combo of itlwmx (not itlwm) and the Heliport app lin
 **You CAN NOT use SMBIOS from this repository, it MUST be unique for every macOS installation**
 
 ## Other guides
-**If you have any problems with installation or booting your macOS, kernel panics or another system related issue check OC configuration guide**  
+**If you have any problems with installation or booting your macOS, kernel panics or another system related issue check OC configuration guide**
 **If something else isn't working properly (for example USB ports, iServices, DRM/Netflix) check Post-Install guide**
  - Creating USB installer: [**\*click\***](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
  - OpenCore configuration: [**\*click\***](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html)
@@ -69,6 +70,6 @@ Wifi is achieved by using a combo of itlwmx (not itlwm) and the Heliport app lin
  - USB mapping: [**\*click\***](https://dortania.github.io/OpenCore-Post-Install/usb/)
 
 
-If you have any other questions or issues, feel free to ask on [**AMD-OSX Discord**](https://discord.gg/EfCYAJW) or [**Forum**](https://forum.amd-osx.com)  
+If you have any other questions or issues, feel free to ask on [**AMD-OSX Discord**](https://discord.gg/EfCYAJW) or [**Forum**](https://forum.amd-osx.com)
 
 ![Screenshot](/screenshot.png?raw=true)

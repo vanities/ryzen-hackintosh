@@ -47,6 +47,7 @@ Check out my <b>PCPartPicker</b> config [here](https://pcpartpicker.com/list/8gk
   1. Make your USB installer with [**this guide**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
   2. Clone the repository and paste the "EFI" directory into your's pendrive "EFI" partition.
   3. Download [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) to generate unique SMBIOS information. Run it and select **Generate SMBIOS**, as the model select **iMacPro1,1**.
+  **You CAN NOT use SMBIOS from this repository, it MUST be unique for every macOS installation**
   4. Open config.plist with [**ProperTree**](https://github.com/corpnewt/ProperTree) and go to PlatformInfo > Generic. Set MLB (Board Serial), SystemSerialNumber (Serial) and SystemUUID (SmUUID) to generated values. Change ROM to your network card's MAC address without the `:` character. [**How to get MAC Address?**](https://www.wikihow.com/Find-the-MAC-Address-of-Your-Computer)
   5. Boot it!
 
@@ -56,8 +57,22 @@ Wifi is achieved by using a combo of itlwmx (not itlwm) and the Heliport app lin
   1. Make sure to download [Heliport](https://github.com/OpenIntelWireless/HeliPort) and put it into your /Applications
   2. Set it up as a startup app by going to User & Groups, clicking your user, clicking the Login Items tab, then the plus and adding it.
 
+## BIOS
 
-**You CAN NOT use SMBIOS from this repository, it MUST be unique for every macOS installation**
+### Disable
+
+    Fast Boot
+    Secure Boot
+    Serial/COM Port
+    Parallel Port
+    Compatibility Support Module (CSM)(Must be off, GPU errors like gIO are common when this option in enabled)
+    Above 4G decoding (or enable and remove option npci=0x2000 from boot-args)
+ 
+### Enable
+    EHCI/XHCI Hand-off
+    OS type: Windows 8.1/10 UEFI Mode
+    SATA Mode: AHCI
+
 
 ## Other guides
 **If you have any problems with installation or booting your macOS, kernel panics or another system related issue check OC configuration guide**

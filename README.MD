@@ -3,17 +3,27 @@
 ## Specification
 Check out my <b>PCPartPicker</b> config [here](https://pcpartpicker.com/list/8gkz27)
 
+### Hardware
+
 | **Component** | **Model** |
 | ------------- | --------- |
 | CPU | [AMD Ryzen 9 3900X @ 4.6 GHz](https://www.amazon.com/gp/product/B07SXMZLP9/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1) |
 | Motherboard | [GIGABYTE X570 I AORUS Pro WIFI](https://www.amazon.com/gp/product/B07T9PC9ZZ/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1) |
-| RAM | 32GB [(2 x 16GB) Corsair Vengeance @ 3000MHz](https://www.newegg.com/g-skill-32gb-288-pin-ddr4-sdram/p/N82E16820232218?Item=N82E16820232218) |
+| RAM | [32GB (2 x 16GB) Corsair Vengeance @ 3000MHz](https://www.newegg.com/g-skill-32gb-288-pin-ddr4-sdram/p/N82E16820232218?Item=N82E16820232218) |
 | GPU | [Gigabyte RX Vega 56]() |
-| WiFi & Bluetooth | Intel AX1200 (the one on the motherboard) |
+| WiFi & Bluetooth | Intel AX200 (the one on the motherboard) |
 | OS Disk (NVMe) | [Samsung 970 EVO Plus SSD 500GB](https://www.amazon.com/gp/product/B07M7Q21N7/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1) |
+
+### Software
 
 **macOS version**: 11.0 Beta 5 (20A5354i)
 **OpenCore version**: 0.6.0
+
+| **Configuration** | **Value** |
+| ------------- | --------- |
+| alcid | 7 |
+| shikigva | 128 |
+
 
 ## Drivers & Kexts
  - [[Bootloader] OpenCore](https://github.com/acidanthera/OpenCorePkg)
@@ -32,6 +42,7 @@ Check out my <b>PCPartPicker</b> config [here](https://pcpartpicker.com/list/8gk
  - [[Kext] itlwmx](https://github.com/OpenIntelWireless/itlwm)
  - [[Kext] IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
  - [[Kext] SMCAMDProcessor](https://github.com/trulyspinach/SMCAMDProcessor)
+ - [[Kext] SmallTreeIntel82576](https://github.com/trulyspinach/SMCAMDProcessor)
 
 ## Compatible macOS versions
  - Big Sur (10.16/11.0)

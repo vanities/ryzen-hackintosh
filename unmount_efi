@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sync
+diskutil umount /Volumes/EFI

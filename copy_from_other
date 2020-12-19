@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rsync -avr ../ryzen-hackintosh-dude/ryzen-hackintosh/BOOT/* ./EFI/BOOT
+rsync -avr ../ryzen-hackintosh-dude/ryzen-hackintosh/OC/* ./EFI/OC

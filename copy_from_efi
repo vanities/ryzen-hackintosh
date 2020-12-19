@@ -1,1 +1,1 @@
-yes | cp -r /Volumes/EFI/EFI/* EFI
+yes | rync -avr /Volumes/EFI/EFI/* EFI

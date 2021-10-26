@@ -1,1 +1,2 @@
-yes | rsync -avr /Volumes/EFI/EFI/* EFI
+yes | rsync rsync --stats --progress -avr /Volumes/EFI/EFI/* EFI
+cp -rf /Volumes/EFI/EFI/._* /Volumes/EFI/EFI

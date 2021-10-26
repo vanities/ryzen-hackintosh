@@ -2,3 +2,6 @@
 
 rsync -avr ../ryzen-hackintosh-dude/ryzen-hackintosh/BOOT/* ./EFI/BOOT
 rsync -avr ../ryzen-hackintosh-dude/ryzen-hackintosh/OC/* ./EFI/OC
+
+
+echo "WARNING!!! check config.plist for changes!!"

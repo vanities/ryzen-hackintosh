@@ -1,1 +1,1 @@
-yes | rync -avr /Volumes/EFI/EFI/* EFI
+yes | rsync -avr /Volumes/EFI/EFI/* EFI

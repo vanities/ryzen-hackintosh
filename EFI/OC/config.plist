@@ -174,7 +174,7 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-              	<dict>
+			<dict>
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
@@ -350,29 +350,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				wegaAAAA
-				</data>
+				<data>wegaAAAA</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				//3/AAAA
-				</data>
+				<data>//3/AAAA</data>
 				<key>MaxKernel</key>
 				<string>18.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>
-				uAAAAAAA
-				</data>
+				<data>uAwAAAAA</data>
 				<key>ReplaceMask</key>
-				<data>
-				//////8A
-				</data>
+				<data>//////8A</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -388,29 +380,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				wegaAAAA
-				</data>
+				<data>wegaAAAA</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				//3/AAAA
-				</data>
+				<data>//3/AAAA</data>
 				<key>MaxKernel</key>
 				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
-				<data>
-				ugAAAAAA
-				</data>
+				<data>ugwAAAAA</data>
 				<key>ReplaceMask</key>
-				<data>
-				//////8A
-				</data>
+				<data>//////8A</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -426,29 +410,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				wegaAAAA
-				</data>
+				<data>wegaAAAA</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				//3/AAAA
-				</data>
+				<data>//3/AAAA</data>
 				<key>MaxKernel</key>
 				<string>21.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>
-				ugAAAACQ
-				</data>
+				<data>ugwAAACQ</data>
 				<key>ReplaceMask</key>
-				<data>
-				////////
-				</data>
+				<data>////////</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -464,27 +440,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				uaABAAAPMg==
-				</data>
+				<data>uaABAAAPMg==</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>21.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>
-				Dx+AAAAAAA==
-				</data>
+				<data>Dx+AAAAAAA==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -500,27 +470,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				uAQAAABEifFEiQ==
-				</data>
+				<data>uAQAAABEifFEiQ==</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>21.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>
-				uB0AAIBEifFEiQ==
-				</data>
+				<data>uB0AAIBEifFEiQ==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -536,27 +500,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				uYsAAAAxwDHSDzA=
-				</data>
+				<data>uYsAAAAxwDHSDzA=</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>21.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>
-				Zg8fhAAAAAAAZpA=
-				</data>
+				<data>Zg8fhAAAAAAAZpA=</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -572,27 +530,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				uYsAAAAPMg==
-				</data>
+				<data>uYsAAAAPMg==</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>21.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>
-				uroAAABmkA==
-				</data>
+				<data>uroAAABmkA==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -608,27 +560,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				uRcAAAAPMsHqEoDiBw==
-				</data>
+				<data>uRcAAAAPMsHqEoDiBw==</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>21.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>
-				sgFmDx+EAAAAAABmkA==
-				</data>
+				<data>sgFmDx+EAAAAAABmkA==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -644,27 +590,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				R2VudWluZUludGVsAA==
-				</data>
+				<data>R2VudWluZUludGVsAA==</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>20.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>
-				QXV0aGVudGljQU1EAA==
-				</data>
+				<data>QXV0aGVudGljQU1EAA==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -680,28 +620,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				uW4AAAAPvsA5wQAAAAAAAA==
-				</data>
+				<data>uW4AAAAPvsA5wQAAAAAAAA==</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				/////////////wAAAAAAAA==
-				</data>
+				<data>/////////////wAAAAAAAA==</data>
 				<key>MaxKernel</key>
 				<string>21.99.99</string>
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>
-				uW4AAAAPvsA5wZCQkJCQkA==
-				</data>
+				<data>uW4AAAAPvsA5wZCQkJCQkA==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -717,28 +650,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				MduAPQAAAAAGdQA=
-				</data>
+				<data>MduAPQAAAAAGdQA=</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				/////wAAAP///wA=
-				</data>
+				<data>/////wAAAP///wA=</data>
 				<key>MaxKernel</key>
 				<string>20.3.0</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>
-				u7xP6njpXQAAAJA=
-				</data>
+				<data>u7xP6njpXQAAAJA=</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -754,28 +680,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				gD0AAAAABnU=
-				</data>
+				<data>gD0AAAAABnU=</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				//8AAAAA//8=
-				</data>
+				<data>//8AAAAA//8=</data>
 				<key>MaxKernel</key>
 				<string>21.99.99</string>
 				<key>MinKernel</key>
 				<string>20.4.0</string>
 				<key>Replace</key>
-				<data>
-				urxP6ngx2+s=
-				</data>
+				<data>urxP6ngx2+s=</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -791,29 +710,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				uZkBAAAPMkjB4iCJxkgJ1rmYAQAADzJIweIgicBICcK/
-				WAIxBTHJRTHA
-				</data>
+				<data>uZkBAAAPMkjB4iCJxkgJ1rmYAQAADzJIweIgicBICcK/WAIxBTHJRTHA</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>21.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>
-				Zg8fhAAAAAAAZg8fhAAAAAAAZg8fhAAAAAAAZg8fhAAA
-				AAAAZg8fRAAA
-				</data>
+				<data>Zg8fhAAAAAAAZg8fhAAAAAAAZg8fhAAAAAAAZg8fhAAAAAAAZg8fRAAA</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -829,27 +740,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				JfwAAACD+BM=
-				</data>
+				<data>JfwAAACD+BM=</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>MaxKernel</key>
 				<string>21.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>
-				JfwAAAAPHwA=
-				</data>
+				<data>JfwAAAAPHwA=</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -865,28 +770,21 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				icCB4v//AP+BygAAAQC5dwIAAA==
-				</data>
+				<data>icCB4v//AP+BygAAAQC5dwIAAA==</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				////////D////////////////w==
-				</data>
+				<data>////////D////////////////w==</data>
 				<key>MaxKernel</key>
 				<string>21.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>
-				uXcCAAC4BgEHALoGAQcADx9AAA==
-				</data>
+				<data>uXcCAAC4BgEHALoGAQcADx9AAA==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -902,28 +800,21 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				icCB4v//AP+BygAAAQC5dwIAAA==
-				</data>
+				<data>icCB4v//AP+BygAAAQC5dwIAAA==</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data>
-				////////D////////////////w==
-				</data>
+				<data>////////D////////////////w==</data>
 				<key>MaxKernel</key>
 				<string>21.99.99</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>
-				uXcCAAC4BgYGBroGBgYGDzAPCQ==
-				</data>
+				<data>uXcCAAC4BgYGBroGBgYGDzAPCQ==</data>
 				<key>ReplaceMask</key>
-				<data>
-				</data>
+				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -1123,6 +1014,7 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
+			<string>C02907301CDJG36A8</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
@@ -1136,9 +1028,9 @@
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-            <string>C02Y80NCHX87</string>
+			<string>C02Y80NCHX87</string>
 			<key>SystemUUID</key>
-            <string>1D5A76C1-E0D4-423D-AA8F-D6EF7B808483</string>
+			<string>1D5A76C1-E0D4-423D-AA8F-D6EF7B808483</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

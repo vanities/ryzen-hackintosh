@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./MountEfi/./MountEFI.command disk2s2
+./MountEfi/./MountEFI.command disk2s1

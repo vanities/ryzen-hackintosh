@@ -306,7 +306,7 @@
                 <key>Arch</key>
                 <string>x86_64</string>
                 <key>BundlePath</key>
-				<string>BlueToolFixup</string>
+				<string>BlueToolFixup.kext</string>
                 <key>Comment</key>
                 <string></string>
                 <key>Enabled</key>

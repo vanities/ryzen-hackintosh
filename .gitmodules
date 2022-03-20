@@ -1,3 +1,6 @@
 [submodule "MountEFI"]
 	path = MountEFI
 	url = git@github.com:corpnewt/MountEFI.git
+[submodule "apps/ProperTree"]
+	path = apps/ProperTree
+	url = https://github.com/corpnewt/ProperTree

@@ -96,19 +96,6 @@
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
-		<dict>
-			<key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>@0,name</key>
-				<string>ATY,Adder</string>
-				<key>@1,name</key>
-				<string>ATY,Adder</string>
-				<key>@2,name</key>
-				<string>ATY,Adder</string>
-				<key>@3,name</key>
-				<string>ATY,Adder</string>
-			</dict>
-		</dict>
 		<key>Delete</key>
 		<dict/>
 	</dict>
@@ -951,6 +938,8 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
+			<key>LogModules</key>
+			<string>*</string>
 			<key>SerialInit</key>
 			<false/>
 			<key>SysReport</key>

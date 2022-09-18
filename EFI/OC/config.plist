@@ -386,9 +386,7 @@
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>
-				uAAAAAAA
-				</data>
+				<data>uBAAAAAA</data>
 				<key>ReplaceMask</key>
 				<data>
 				//////8A
@@ -424,9 +422,7 @@
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
-				<data>
-				ugAAAAAA
-				</data>
+				<data>uhAAAAAA</data>
 				<key>ReplaceMask</key>
 				<data>
 				//////8A
@@ -462,9 +458,7 @@
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>
-				ugAAAACQ
-				</data>
+				<data>uhAAAACQ</data>
 				<key>ReplaceMask</key>
 				<data>
 				////////
@@ -1179,7 +1173,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
-			<integer>3841</integer>
+			<integer>1537</integer>
 			<key>ROM</key>
 			<data>VSJEiHdm</data>
 			<key>SpoofVendor</key>

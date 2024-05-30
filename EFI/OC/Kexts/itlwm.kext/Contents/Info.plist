@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19H1217</string>
+	<string>19H2026</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,27 +17,27 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0.0</string>
+	<string>2.2.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.0.0</string>
+	<string>2.2.0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>11A420a</string>
+	<string>11E801a</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>19A547</string>
+	<string>19G68</string>
 	<key>DTSDKName</key>
 	<string>macosx10.15</string>
 	<key>DTXcode</key>
-	<string>1100</string>
+	<string>1170</string>
 	<key>DTXcodeBuild</key>
-	<string>11A420a</string>
+	<string>11E801a</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>itlwm</key>
@@ -61,16 +61,30 @@
 				<key>WiFi_1</key>
 				<dict>
 					<key>password</key>
-					<string>snailrocket</string>
+					<string>zxyssdt112233</string>
 					<key>ssid</key>
-					<string>dd-wrt-5G</string>
+					<string>ssdt</string>
 				</dict>
 				<key>WiFi_2</key>
 				<dict>
 					<key>password</key>
-					<string>snailrocket</string>
+					<string>zxyssdt112233</string>
 					<key>ssid</key>
-					<string>dd-wrt</string>
+					<string>ssdt_5G</string>
+				</dict>
+				<key>WiFi_3</key>
+				<dict>
+					<key>password</key>
+					<string></string>
+					<key>ssid</key>
+					<string>Redmi</string>
+				</dict>
+				<key>WiFi_4</key>
+				<dict>
+					<key>password</key>
+					<string>9utc5c5f</string>
+					<key>ssid</key>
+					<string>CMCC-KtG6</string>
 				</dict>
 			</dict>
 		</dict>

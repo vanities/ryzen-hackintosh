@@ -1,0 +1,39 @@
+--- a/EFI/OC/config.plist
++++ b/EFI/OC/config.plist
+@@ Restore SSDT-SLEEP block
+-                       <!-- The new version has removed the SSDT-SLEEP patch block -->
++                       <dict>
++                               <key>Comment</key>
++                               <string>Patch for USB controllers, fixes sleep and instant wake</string>
++                               <key>Enabled</key>
++                               <false/>
++                               <key>Path</key>
++                               <string>SSDT-SLEEP.aml</string>
++                       </dict>
+@@ Revert boot-argument change (line ~1153)
+-                               <string>npci=0x2000 unfairgva=1 alcid=11 -v debug=0x100 keepsyms=1</string>
++                               <string>-v npci=0x2000 unfairgva=1 alcid=11 -v debug=0x100 keepsyms=1 agdpmod=pikera shikigva=128 shiki-id=Mac-7BA5B2D9E42DDD94</string>
+@@ Revert changes to boot UUID (line ~1185)
+-                       <string>C02937403CDJG36JC</string>
++                       <string>C02907301CDJG36A8</string>
+@@ Revert changes to following integer (line ~1189)
+-                       <integer>0</integer>
++                       <integer>3841</integer>
+@@ Revert changes to OEM string (line ~1199)
+-                       <string>C02ZD5ZQHX87</string>
++                       <string>C02Y80NCHX87</string>
+@@ Revert changes to board-id (line ~1201)
+-                       <string>AF872479-8E34-4CA4-88C9-78557429EA43</string>
++                       <string>1D5A76C1-E0D4-423D-AA8F-B808483</string>
+@@ Revert change for data block (line ~351)
+-                               <data>uAAAAAAA</data>
++                               <data>uAwAAAAA</data>
+@@ Revert change for data block (line ~381)
+-                               <data>ugAAAAAA</data>
++                               <data>ugwAAAAA</data>
+@@ Revert change for data block (line ~411)
+-                               <data>ugAAAACQ</data>
++                               <data>ugwAAACQ</data>
+@@ Revert change for data block (line ~441)
+-                               <data>ugAAAAA=</data>
++                               <data>ugwAAAA=</data>

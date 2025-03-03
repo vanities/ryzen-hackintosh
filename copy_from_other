@@ -3,4 +3,61 @@
 rsync -avr ../ryzen-hackintosh-dude/ryzen-hackintosh/BOOT/* ./EFI/BOOT
 rsync -avr ../ryzen-hackintosh-dude/ryzen-hackintosh/OC/* ./EFI/OC
 
+FILE="EFI/OC/config.plist"
+
+# Determine in-place sed flag (macOS requires an empty string after -i)
+if [[ "$(uname)" == "Darwin" ]]; then
+  SED_INPLACE=("sed" "-i" "")
+else
+  SED_INPLACE=("sed" "-i")
+fi
+
+# 1. Revert boot-arguments string.
+"${SED_INPLACE[@]}" 's|<string>npci=0x2000 unfairgva=1 alcid=11 -v debug=0x100 keepsyms=1</string>|<string>-v npci=0x2000 unfairgva=1 alcid=11 -v debug=0x100 keepsyms=1 agdpmod=pikera shikigva=128 shiki-id=Mac-7BA5B2D9E42DDD94</string>|g' "$FILE"
+
+# 2. Revert other key values.
+# Revert UUID
+"${SED_INPLACE[@]}" 's|<string>C02937403CDJG36JC</string>|<string>C02907301CDJG36A8</string>|g' "$FILE"
+# Revert integer
+"${SED_INPLACE[@]}" 's|<integer>0</integer>|<integer>3841</integer>|g' "$FILE"
+# Revert OEM string
+"${SED_INPLACE[@]}" 's|<string>C02ZD5ZQHX87</string>|<string>C02Y80NCHX87</string>|g' "$FILE"
+# Revert board-ID
+"${SED_INPLACE[@]}" 's|<string>AF872479-8E34-4CA4-88C9-78557429EA43</string>|<string>1D5A76C1-E0D4-423D-AA8F-B808483</string>|g' "$FILE"
+
+# 3. Insert the SSDT-SLEEP block at line 16 if missing.
+# This command inserts the block at line 16. Adjust the line number if necessary.
+#
+#if [[ "$(uname)" == "Darwin" ]]; then
+#  sed -i '' '17i\
+#      <dict>\
+#        <key>Comment</key>\
+#        <string>Patch for USB controllers, fixes sleep and instant wake</string>\
+#        <key>Enabled</key>\
+#        <false/>\
+#        <key>Path</key>\
+#        <string>SSDT-SLEEP.aml</string>\
+#      </dict>
+#        ' "$FILE"
+#else
+#  sed -i '17i\
+#      <dict>\
+#        <key>Comment</key>\
+#        <string>Patch for USB controllers, fixes sleep and instant wake</string>\
+#        <key>Enabled</key>\
+#        <false/>\
+#        <key>Path</key>\
+#        <string>SSDT-SLEEP.aml</string>\
+#      </dict>
+#        ' "$FILE"
+#fi
+
+# 4. Revert data block values.
+"${SED_INPLACE[@]}" 's|<data>uAAAAAAA</data>|<data>uAwAAAAA</data>|g' "$FILE"
+"${SED_INPLACE[@]}" 's|<data>ugAAAAAA</data>|<data>ugwAAAAA</data>|g' "$FILE"
+"${SED_INPLACE[@]}" 's|<data>ugAAAACQ</data>|<data>ugwAAACQ</data>|g' "$FILE"
+"${SED_INPLACE[@]}" 's|<data>ugAAAAA=</data>|<data>ugwAAAA=</data>|g' "$FILE"
+
+echo "Modifications applied to $FILE"
+
 echo "WARNING!!! check config.plist for changes!!"

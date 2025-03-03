@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./apps/MountEfi/./MountEFI.command disk1s5s1
+./apps/MountEFI/./MountEFI.command disk1s5s1

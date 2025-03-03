@@ -74,7 +74,7 @@
 			<key>ProvideCustomSlide</key>
 			<true/>
 			<key>ProvideMaxSlide</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>RebuildAppleMemoryMap</key>
 			<true/>
 			<key>ResizeAppleGpuBars</key>
@@ -278,7 +278,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data>//3/AAAA</data>
 				<key>MaxKernel</key>
@@ -286,11 +286,11 @@
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>uAAAAAAA</data>
+				<data>uAwAAAAA</data>
 				<key>ReplaceMask</key>
 				<data>//////8A</data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -308,7 +308,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data>//3/AAAA</data>
 				<key>MaxKernel</key>
@@ -316,11 +316,11 @@
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
-				<data>ugAAAAAA</data>
+				<data>ugwAAAAA</data>
 				<key>ReplaceMask</key>
 				<data>//////8A</data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -338,7 +338,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data>//3/AAAA</data>
 				<key>MaxKernel</key>
@@ -346,11 +346,11 @@
 				<key>MinKernel</key>
 				<string>21.0.0</string>
 				<key>Replace</key>
-				<data>ugAAAACQ</data>
+				<data>ugwAAACQ</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -368,7 +368,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data>//3/AAA=</data>
 				<key>MaxKernel</key>
@@ -376,11 +376,11 @@
 				<key>MinKernel</key>
 				<string>22.4.0</string>
 				<key>Replace</key>
-				<data>ugAAAAA=</data>
+				<data>ugwAAAA=</data>
 				<key>ReplaceMask</key>
 				<data>//////8=</data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -398,7 +398,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
@@ -410,7 +410,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -428,7 +428,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
@@ -440,7 +440,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -458,7 +458,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
@@ -470,7 +470,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -488,7 +488,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
@@ -500,7 +500,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -518,7 +518,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
@@ -530,7 +530,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -548,7 +548,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
@@ -560,7 +560,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -578,7 +578,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
@@ -590,7 +590,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -608,7 +608,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
@@ -620,7 +620,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -638,7 +638,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data>AAAAAAAA/////w==</data>
 				<key>MaxKernel</key>
@@ -650,7 +650,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -668,7 +668,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data>/////wAAAP///wA=</data>
 				<key>MaxKernel</key>
@@ -680,7 +680,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -698,7 +698,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data>//8AAAAA//8=</data>
 				<key>MaxKernel</key>
@@ -710,7 +710,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -720,7 +720,7 @@
 				<key>Comment</key>
 				<string>algrey | _i386_init | Remove 3 rdmsr calls | 10.13+</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -728,7 +728,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
@@ -740,7 +740,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -758,7 +758,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>MaxKernel</key>
@@ -770,7 +770,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -788,7 +788,7 @@
 				<key>Identifier</key>
 				<string>com.apple.iokit.IOPCIFamily</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data>8P//8A==</data>
 				<key>MaxKernel</key>
@@ -800,7 +800,7 @@
 				<key>ReplaceMask</key>
 				<data>AAAPAA==</data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -818,7 +818,7 @@
 				<key>Identifier</key>
 				<string>com.apple.iokit.IOPCIFamily</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data>/wD//w==</data>
 				<key>MaxKernel</key>
@@ -830,7 +830,7 @@
 				<key>ReplaceMask</key>
 				<data>AAD/AA==</data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -848,7 +848,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data>/wAAD/////8AAP8AAAD/AAAAAAA=</data>
 				<key>MaxKernel</key>
@@ -860,7 +860,7 @@
 				<key>ReplaceMask</key>
 				<data>AAAAAAAAAAAAAAAAAAD///////8=</data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -878,7 +878,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data>SAAA8P////8AAAAAAA==</data>
 				<key>MaxKernel</key>
@@ -890,7 +890,7 @@
 				<key>ReplaceMask</key>
 				<data>AAAAAAAAAP///////w==</data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -900,7 +900,7 @@
 				<key>Comment</key>
 				<string>algrey | _mtrr_update_action | fix PAT | 10.13+</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
@@ -908,7 +908,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data>////////D////////////////w==</data>
 				<key>MaxKernel</key>
@@ -920,7 +920,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -930,7 +930,7 @@
 				<key>Comment</key>
 				<string>Shaneee | _mtrr_update_action | Fix PAT | 10.13+</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -938,7 +938,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data>////////D////////////////w==</data>
 				<key>MaxKernel</key>
@@ -950,7 +950,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -960,7 +960,7 @@
 				<key>Comment</key>
 				<string>Algrey / Zormeister | _mtrr_update_action | Fix PAT | 15+</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
@@ -968,7 +968,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data>/////////////wAAAAD//w==</data>
 				<key>MaxKernel</key>
@@ -980,7 +980,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -990,7 +990,7 @@
 				<key>Comment</key>
 				<string>Shaneee / Zormeister | _mtrr_update_action | Fix PAT | 15+</string>
 				<key>Count</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -998,7 +998,7 @@
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 				<key>Mask</key>
 				<data>/////////////wAAAAD//w==</data>
 				<key>MaxKernel</key>
@@ -1010,7 +1010,7 @@
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>3841</integer>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -1081,7 +1081,7 @@
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HibernateSkipsPicker</key>
@@ -1107,7 +1107,7 @@
 			<key>ShowPicker</key>
 			<true/>
 			<key>TakeoffDelay</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>Timeout</key>
 			<integer>3</integer>
 		</dict>
@@ -1120,7 +1120,7 @@
 			<key>DisableWatchDog</key>
 			<true/>
 			<key>DisplayDelay</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
 			<key>LogModules</key>
@@ -1137,7 +1137,7 @@
 			<key>AllowSetDefault</key>
 			<true/>
 			<key>ApECID</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>AuthRestart</key>
 			<false/>
 			<key>BlacklistAppleUpdate</key>
@@ -1155,7 +1155,7 @@
 			<key>PasswordSalt</key>
 			<data></data>
 			<key>ScanPolicy</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>SecureBootModel</key>
 			<string>Default</string>
 			<key>Vault</key>
@@ -1178,7 +1178,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>npci=0x2000 unfairgva=1 alcid=11 -v debug=0x100 keepsyms=1</string>
+				<string>-v npci=0x2000 unfairgva=1 alcid=11 -v debug=0x100 keepsyms=1 agdpmod=pikera shikigva=128 shiki-id=Mac-7BA5B2D9E42DDD94</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1210,11 +1210,11 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02937403CDJG36JC</string>
+			<string>C02907301CDJG36A8</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>ROM</key>
 			<data>VSJEiHdm</data>
 			<key>SpoofVendor</key>
@@ -1224,9 +1224,9 @@
 			<key>SystemProductName</key>
 			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02ZD5ZQHX87</string>
+			<string>C02Y80NCHX87</string>
 			<key>SystemUUID</key>
-			<string>AF872479-8E34-4CA4-88C9-78557429EA43</string>
+			<string>1D5A76C1-E0D4-423D-AA8F-B808483</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1265,15 +1265,15 @@
 			<key>GraphicsInputMirroring</key>
 			<true/>
 			<key>KeyInitialDelay</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
 			<key>PointerDwellClickTimeout</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>PointerDwellDoubleClickTimeout</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>PointerDwellRadius</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
 			<key>PointerPollMax</key>
@@ -1288,7 +1288,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>AudioCodec</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>AudioDevice</key>
 			<string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
 			<key>AudioOutMask</key>
@@ -1308,7 +1308,7 @@
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 		</dict>
 		<key>ConnectDrivers</key>
 		<true/>
@@ -1405,7 +1405,7 @@
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
 			<key>UIScale</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>UgaPassThrough</key>
 			<false/>
 		</dict>
@@ -1461,7 +1461,7 @@
 			<key>EnableVmx</key>
 			<false/>
 			<key>ExitBootServicesDelay</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>ForceOcWriteFlash</key>
 			<false/>
 			<key>ForgeUefiSupport</key>
@@ -1481,7 +1481,7 @@
 			<key>ShimRetainProtocol</key>
 			<false/>
 			<key>TscSyncTimeout</key>
-			<integer>0</integer>
+			<integer>3841</integer>
 			<key>UnblockFsConnect</key>
 			<false/>
 		</dict>
